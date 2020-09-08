@@ -6,4 +6,16 @@ Dating Discord BOT (Python)
 # Notes:
 
 
-# Last Updates
+# Last Updates:
+
+
+
+# To Do:
+
+
+
+# Bugs:
+
+
+
+# Solved Bugs:
