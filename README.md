@@ -12,6 +12,8 @@ Dating Discord BOT (Python)
 
 # To Do:
 
+- Roles spliting function
+
 
 
 # Bugs:
