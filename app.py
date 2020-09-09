@@ -9,4 +9,4 @@ from functions import *
 # getToken() function callback (to store the token as variable).
 TOKEN = getToken()
 
-print(TOKEN)
+# print(TOKEN)
