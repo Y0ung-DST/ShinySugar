@@ -18,6 +18,8 @@ Dating Discord BOT (Python)
 
 - Roles spliting function
 
+- Show profile function
+
 - Working on matching algorithm
 
 
