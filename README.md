@@ -8,6 +8,10 @@ Dating Discord BOT (Python)
 
 # Last Updates:
 
+- Adding getToken() function.
+
+- Spliting functions to another py file.
+
 
 
 # To Do:
