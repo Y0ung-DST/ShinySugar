@@ -16,8 +16,13 @@ Dating Discord BOT (Python)
 
 # To Do:
 
+- Completing roles.json file
+
 - Roles spliting function
 
+- Show profile function
+
+- Working on matching algorithm
 
 
 # Bugs:
