@@ -16,7 +16,7 @@ class MatchingBot(discord.Client):
         print(f"Bot is started as {self.user}!")
     async def on_message(self, message):
         if message.content == PREFIX + "profile":
-            await message.channel.send(splitRoles([str(i.id) for i in message.author.roles]))
+            await message.channel.send(splitRoles([str(i.name) for i in message.author.roles]))
 
 client = MatchingBot()
 
