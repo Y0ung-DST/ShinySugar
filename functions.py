@@ -11,6 +11,11 @@ def openJson():
         config = json.loads(config.read())
     return config
 
+
+#..........
+def arrtoText(arr):
+    return "".join(i for i in arr)
+
 # ..........
 def getToken():
     return openJson()["token"]
@@ -22,5 +27,26 @@ def getPrefix():
 
 #.............
 def splitRoles(roles):
+    data = {
+        "regions": [],
+        "gendre": [],
+        "likes": [],
+        "sexuality": [],
+        "ages": [],
+        "statue": [],
+        "prefers":[]
+    }
     l = openRoles()
-    return roles
+    for j in l:
+        for x in l[j]:
+            if x in roles:
+                data[j].append(x)
+    error = 0
+    for j in data:
+        if len(data[j]) < 1:
+            error = 1
+            break
+    if error != 1:
+        return data
+    else:
+        return "Complete your profile please."
