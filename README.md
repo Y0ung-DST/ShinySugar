@@ -12,11 +12,10 @@ Dating Discord BOT (Python)
 
 - Spliting functions to another py file.
 
+- Completing roles.json file
 
 
 # To Do:
-
-- Completing roles.json file
 
 - Roles spliting function
 
