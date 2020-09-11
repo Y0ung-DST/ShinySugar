@@ -14,7 +14,11 @@ def openJson():
 
 #..........
 def arrtoText(arr):
-    return "".join(i for i in arr)
+    # return "".join(i for i in arr)
+    if len(arr) == 1:
+        return "".join(i for i in arr)
+    else:
+        return ",".join(i for i in arr)
 
 # ..........
 def getToken():
