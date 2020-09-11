@@ -16,9 +16,9 @@ Dating Discord BOT (Python)
 
 - Complete splitRoles function
 
-# To Do:
-
 - Show profile function
+
+# To Do:
 
 - Working on matching algorithm
 
