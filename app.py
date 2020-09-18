@@ -2,18 +2,18 @@
 import discord
 from functions import *
 
-
-# code....
-
-
 # getToken() function callback (to store the token as variable).
 TOKEN = getToken()
 PREFIX = getPrefix()
+PREFERS = getPrefers()
 
-# print(TOKEN)
 class MatchingBot(discord.Client):
+    
+    # Signing bot starting.
     async def on_ready(self):
         print(f"Bot is started as {self.user}!")
+
+    # Get profile function.
     async def on_message(self, message):
         if message.content == PREFIX + "profile":
             data = splitRoles([str(i.name) for i in message.author.roles])
@@ -32,6 +32,18 @@ class MatchingBot(discord.Client):
                 await message.channel.send(embed=embed)
             else:
                 await message.channel.send(data)
+
+    # Match function
+    async def on_message(self, message):
+        if message.content == PREFIX + "match":
+            data = splitRoles([str(i.name) for i in message.author.roles])
+            if data != "Complete your profile please.":
+                if arrtoText(data['sexuality']) in PREFERS:
+                    await message.channel.send(f"Oh! You Prefer {PREFERS[arrtoText(data['sexuality'])][arrtoText(data['prefers'])]}")
+            else:
+                    await message.channel.send(data)
+
+                        
 
 client = MatchingBot()
 
