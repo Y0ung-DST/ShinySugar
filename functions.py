@@ -3,14 +3,15 @@ import json
 
 def openRoles():
     with open("./roles.json","r") as rr:
-        rr = json.loads(rr.read())
-    return rr
+        return json.loads(rr.read())
 
 def openJson():
     with open("./config.json","r") as config:
-        config = json.loads(config.read())
-    return config
+        return json.loads(config.read())
 
+def getPrefers():
+    with open("./prefers.json","r") as l:
+        return json.loads(l.read())
 
 #..........
 def arrtoText(arr):
