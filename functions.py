@@ -9,10 +9,6 @@ def openJson():
     with open("./config.json","r") as config:
         return json.loads(config.read())
 
-def getPrefers():
-    with open("./prefers.json","r") as l:
-        return json.loads(l.read())
-
 #..........
 def arrtoText(arr):
     # return "".join(i for i in arr)
