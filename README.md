@@ -5,6 +5,8 @@ Dating Discord BOT (Python)
 
 # Notes:
 
+Bot V1 Finished.
+
 
 # Last Updates:
 
@@ -18,9 +20,9 @@ Dating Discord BOT (Python)
 
 - Show profile function
 
-# To Do:
-
 - Working on matching algorithm
+
+# To Do:
 
 
 # Bugs:
