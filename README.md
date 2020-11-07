@@ -1,4 +1,4 @@
-# ShinySuger
+# ShinySugar
 Dating Discord BOT (Python)
 
 
