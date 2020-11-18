@@ -87,7 +87,7 @@ class MatchingBot(discord.Client):
                 embed.add_field(name="Age", value=f"{arrtoText(r__[r4]['ages'])}", inline=True)
                 embed.add_field(name="Statue", value=f"{arrtoText(r__[r4]['statue'])}", inline=True)
                 embed.add_field(name="Prefer", value=f"{arrtoText(r__[r4]['prefers'])}", inline=True)
-                embed.set_footer(text="ShinySuger - https://discord.gg/q3axBYW")
+                embed.set_footer(text="ShinySuger - https://discord.gg/sugar")
                 await message.author.send("Best Match:",embed=embed)
                 await message.add_reaction(u"\u2705")
 
