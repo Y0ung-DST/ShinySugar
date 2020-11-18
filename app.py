@@ -2,8 +2,8 @@
 
 # Bot By ShinySugar
 # Aka Jakom, Young, Satan
-# Our Discord Server: https://discord.gg/U3sBH9
-# Contact Me: Jakom#2194
+# Our Discord Server: https://discord.gg/sugar
+# Contact Me: Jakom#0002
 
 import discord
 import numpy as np
